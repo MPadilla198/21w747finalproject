@@ -110,7 +110,7 @@ func init() {
 		}()
 
 		scanner := bufio.NewScanner(f)
-		regx, err := regexp.Compile("") // TODO Match for page counts at the end
+		regx, err := regexp.Compile("[{]page/[\\d]-[\\d]/[}]$") // TODO Match for page counts at the end
 		if err != nil {
 			log.Fatalf("Error compiling regular expression: %s\n", err.Error())
 		}
@@ -153,12 +153,8 @@ func init() {
 }
 
 func main() {
-	c := colly.NewCollector(colly.AllowedDomains(
-		"https://www.whitehouse.gov",
-		"https://www.state.gov/",
-		"https://ustr.gov"))
-
 	for _, siteCase := range siteCases {
+		c := colly.NewCollector()
 		// Find and visit all links
 		c.OnHTML(siteCase.onHTMLSelector, siteCase.onHTMLFunc)
 
