@@ -8,12 +8,13 @@ Burkina Faso
 Burundi
 Cabo Verde
 Cameroon
-Central African Republic (CAR)
+Central African Republic
+CAR
 Chad
 Comoros
-Congo, Democratic Republic of the
-Congo, Republic of the
-Cote d’Ivoire
+Congo
+Cote
+Ivoire
 Djibouti
 Egypt
 Equatorial Guinea
@@ -24,7 +25,8 @@ Gabon
 Gambia
 Ghana
 Guinea
-Guinea-Bissau
+Guinea
+Bissau
 Kenya
 Lesotho
 Liberia
@@ -40,13 +42,14 @@ Namibia
 Niger
 Nigeria
 Rwanda
-Sao Tome and Principe
+Sao 
+Tome 
+Principe
 Senegal
 Seychelles
-Sierra Leone
+Sierra
+Leone
 Somalia
-South Africa
-South Sudan
 Sudan
 Tanzania
 Togo
